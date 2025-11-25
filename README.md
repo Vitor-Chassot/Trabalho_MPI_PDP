@@ -1,3 +1,4 @@
+```
 Compilar com:
 mpicc mpi_p2p_naobloqueante.c -o mpi_p2p_naobloqueante
 mpicc mpi_p2p_bloqueante.c -o mpi_p2p_bloqueante
@@ -10,6 +11,4 @@ mpirun -np NUM_PROCESSOS ./mpi_p2p_bloqueante DIMENSAO_DA_MATRIZ
 
 Exemplo:
 mpirun -np 3 ./mpi_p2p_bloqueante 100
-
-
-  
+```
